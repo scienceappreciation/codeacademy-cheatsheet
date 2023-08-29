@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+section, header {
+    text-align: center;
+}
+
+.documentation {
+    display: block;
+    width: 50%;
+    background-color: white;
+    margin: 1em auto;
+    padding: 0.75em;
+    border: 0.15em solid black;
+    border-radius: 1%;
+}
+
+.doc-head {
+    background-color: khaki;
+    padding: 0 0.75em;
+}
+
+.elem {
+    text-align: left;
+    padding: 0 0.75rem;
+}
+
+.elem a {
+    text-decoration: none;
+}
+
+.desc {
+    background-color: whitesmoke;
+    padding: 0.5em;
+}
+
+.code-oneline {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.code-oneline a {
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: black;
+    border: 0.1em solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.code-oneline a:hover {
+    opacity: 0.5;
+}
+
+.warning {
+    background-color: goldenrod;
+    padding: 0 0.2rem;
+    font-weight: bold;
+}
